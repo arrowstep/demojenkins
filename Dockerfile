@@ -5,7 +5,7 @@ ENV LC_ALL C.UTF-8
 ENV PYTHONUNBUFFERED=1
 
 
-COPY ./healthchecks /app
+COPY ./healthdemo /app
 VOLUME [ "/app" ]
 WORKDIR /app
 

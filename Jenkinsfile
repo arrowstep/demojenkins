@@ -4,7 +4,7 @@ node {
 		  userRemoteConfigs: [[url: 'https://github.com/arrowstep/demojenkins.git']]])
 	stage('Build image') {
   		
-		sh 'docker build -t arrowdockerhub/demohub .'
+		sh 'docker build -t healthdemo/img .'
 	}
 	
 	stage('First step') {
